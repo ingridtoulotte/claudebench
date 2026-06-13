@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="374" viewBox="0 0 760 374" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="760" height="374" rx="14" fill="#0d1117"/>
+<text x="32" y="48" fill="#58a6ff" font-size="22" font-weight="700">⬡ ClaudeBench</text>
+<text x="32" y="78" fill="#7d8590" font-size="13">suite claude-md · model claude-opus-4-8 · 90×2 trials</text>
+<text x="32" y="120" fill="#7d8590" font-size="12" letter-spacing="1">CONFIG</text>
+<text x="300" y="120" fill="#7d8590" font-size="12" letter-spacing="1">PASS RATE (95% CI)</text>
+<text x="620" y="120" fill="#7d8590" font-size="12" letter-spacing="1">TOKENS</text>
+<text x="32" y="174" fill="#e6edf3" font-size="16" font-weight="700">● terse-rules</text>
+<text x="32" y="194" fill="#3fb950" font-size="22" font-weight="700">88</text>
+<rect x="300" y="158" width="280" height="14" rx="7" fill="#21262d"/>
+<rect x="300" y="158" width="245.77777777777777" height="14" rx="7" fill="#3fb950"/>
+<line x1="522.393015488134" y1="154" x2="522.393015488134" y2="176" stroke="#e6edf3" stroke-width="2"/>
+<line x1="560.502075814657" y1="154" x2="560.502075814657" y2="176" stroke="#e6edf3" stroke-width="2"/>
+<text x="300" y="194" fill="#7d8590" font-size="13">88% (79%–93%)</text>
+<text x="620" y="176" fill="#e6edf3" font-size="15">7.8k</text>
+<text x="32" y="238" fill="#e6edf3" font-size="16" font-weight="400">○ verbose-rules</text>
+<text x="32" y="258" fill="#d29922" font-size="22" font-weight="700">63</text>
+<rect x="300" y="222" width="280" height="14" rx="7" fill="#21262d"/>
+<rect x="300" y="222" width="177.33333333333331" height="14" rx="7" fill="#d29922"/>
+<line x1="448.46191609891434" y1="218" x2="448.46191609891434" y2="240" stroke="#e6edf3" stroke-width="2"/>
+<line x1="503.14811612560015" y1="218" x2="503.14811612560015" y2="240" stroke="#e6edf3" stroke-width="2"/>
+<text x="300" y="258" fill="#7d8590" font-size="13">63% (53%–73%)</text>
+<text x="620" y="240" fill="#e6edf3" font-size="15">12.4k</text>
+<rect x="32" y="302" width="696" height="44" rx="8" fill="#13301c" stroke="#2ea043"/>
+<text x="48" y="330" fill="#3fb950" font-size="15" font-weight="700">✓ terse-rules wins</text>
+<text x="220" y="330" fill="#e6edf3" font-size="14">+24.4pp · -37.0% tokens · p=0.000</text>
+</svg>

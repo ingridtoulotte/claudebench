@@ -1,0 +1,1631 @@
+{
+  "note": "Seeded demo fixture (gen-fixture.mjs). NOT real model runs — for demo/CI only.",
+  "suite": "claude-md",
+  "model": "claude-opus-4-8",
+  "generator": {
+    "seed": 20260613,
+    "trials": 30
+  },
+  "records": [
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 0,
+      "passed": true,
+      "tokensIn": 7683,
+      "tokensOut": 1775,
+      "latencyMs": 7288
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 1,
+      "passed": true,
+      "tokensIn": 10367,
+      "tokensOut": 1669,
+      "latencyMs": 7051
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 2,
+      "passed": true,
+      "tokensIn": 9371,
+      "tokensOut": 1569,
+      "latencyMs": 7612
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 3,
+      "passed": true,
+      "tokensIn": 9620,
+      "tokensOut": 1575,
+      "latencyMs": 6978
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 4,
+      "passed": true,
+      "tokensIn": 9280,
+      "tokensOut": 1281,
+      "latencyMs": 8104
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 5,
+      "passed": true,
+      "tokensIn": 10008,
+      "tokensOut": 1262,
+      "latencyMs": 9790
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 6,
+      "passed": false,
+      "tokensIn": 10459,
+      "tokensOut": 1724,
+      "latencyMs": 8497
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 7,
+      "passed": true,
+      "tokensIn": 9953,
+      "tokensOut": 1338,
+      "latencyMs": 9035
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 8,
+      "passed": true,
+      "tokensIn": 11192,
+      "tokensOut": 1655,
+      "latencyMs": 9365
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 9,
+      "passed": true,
+      "tokensIn": 7986,
+      "tokensOut": 1707,
+      "latencyMs": 9043
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 10,
+      "passed": false,
+      "tokensIn": 10372,
+      "tokensOut": 1230,
+      "latencyMs": 8625
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 11,
+      "passed": true,
+      "tokensIn": 9703,
+      "tokensOut": 1434,
+      "latencyMs": 8828
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 12,
+      "passed": false,
+      "tokensIn": 7710,
+      "tokensOut": 2057,
+      "latencyMs": 8718
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 13,
+      "passed": true,
+      "tokensIn": 10035,
+      "tokensOut": 1611,
+      "latencyMs": 8679
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 14,
+      "passed": true,
+      "tokensIn": 8043,
+      "tokensOut": 1893,
+      "latencyMs": 7878
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 15,
+      "passed": true,
+      "tokensIn": 8797,
+      "tokensOut": 1336,
+      "latencyMs": 9749
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 16,
+      "passed": true,
+      "tokensIn": 7683,
+      "tokensOut": 1332,
+      "latencyMs": 10913
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 17,
+      "passed": true,
+      "tokensIn": 9377,
+      "tokensOut": 944,
+      "latencyMs": 11911
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 18,
+      "passed": true,
+      "tokensIn": 8199,
+      "tokensOut": 1549,
+      "latencyMs": 6560
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 19,
+      "passed": true,
+      "tokensIn": 8163,
+      "tokensOut": 1738,
+      "latencyMs": 7814
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 20,
+      "passed": true,
+      "tokensIn": 6964,
+      "tokensOut": 1861,
+      "latencyMs": 9072
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 21,
+      "passed": true,
+      "tokensIn": 8364,
+      "tokensOut": 1527,
+      "latencyMs": 9297
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 22,
+      "passed": true,
+      "tokensIn": 11224,
+      "tokensOut": 1848,
+      "latencyMs": 9016
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 23,
+      "passed": true,
+      "tokensIn": 9205,
+      "tokensOut": 1289,
+      "latencyMs": 9652
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 24,
+      "passed": false,
+      "tokensIn": 10955,
+      "tokensOut": 1365,
+      "latencyMs": 8922
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 25,
+      "passed": true,
+      "tokensIn": 8915,
+      "tokensOut": 1636,
+      "latencyMs": 9048
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 26,
+      "passed": true,
+      "tokensIn": 7509,
+      "tokensOut": 1266,
+      "latencyMs": 7611
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 27,
+      "passed": true,
+      "tokensIn": 9619,
+      "tokensOut": 1289,
+      "latencyMs": 11085
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 28,
+      "passed": true,
+      "tokensIn": 7924,
+      "tokensOut": 1530,
+      "latencyMs": 9791
+    },
+    {
+      "config": "verbose-rules",
+      "task": "fix-off-by-one",
+      "trial": 29,
+      "passed": true,
+      "tokensIn": 10649,
+      "tokensOut": 1543,
+      "latencyMs": 9437
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 0,
+      "passed": true,
+      "tokensIn": 12294,
+      "tokensOut": 2863,
+      "latencyMs": 7105
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 1,
+      "passed": true,
+      "tokensIn": 12622,
+      "tokensOut": 1626,
+      "latencyMs": 11374
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 2,
+      "passed": false,
+      "tokensIn": 10767,
+      "tokensOut": 2768,
+      "latencyMs": 12834
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 3,
+      "passed": true,
+      "tokensIn": 12180,
+      "tokensOut": 2123,
+      "latencyMs": 10305
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 4,
+      "passed": false,
+      "tokensIn": 11745,
+      "tokensOut": 2563,
+      "latencyMs": 9631
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 5,
+      "passed": true,
+      "tokensIn": 13455,
+      "tokensOut": 1635,
+      "latencyMs": 9713
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 6,
+      "passed": false,
+      "tokensIn": 13178,
+      "tokensOut": 2573,
+      "latencyMs": 10927
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 7,
+      "passed": true,
+      "tokensIn": 10853,
+      "tokensOut": 1394,
+      "latencyMs": 11922
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 8,
+      "passed": true,
+      "tokensIn": 9710,
+      "tokensOut": 1544,
+      "latencyMs": 10343
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 9,
+      "passed": true,
+      "tokensIn": 13169,
+      "tokensOut": 1920,
+      "latencyMs": 10082
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 10,
+      "passed": true,
+      "tokensIn": 10640,
+      "tokensOut": 2057,
+      "latencyMs": 8914
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 11,
+      "passed": true,
+      "tokensIn": 11339,
+      "tokensOut": 2281,
+      "latencyMs": 9353
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 12,
+      "passed": true,
+      "tokensIn": 13549,
+      "tokensOut": 1893,
+      "latencyMs": 9449
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 13,
+      "passed": true,
+      "tokensIn": 12078,
+      "tokensOut": 2041,
+      "latencyMs": 8552
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 14,
+      "passed": true,
+      "tokensIn": 11332,
+      "tokensOut": 2214,
+      "latencyMs": 7348
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 15,
+      "passed": false,
+      "tokensIn": 9874,
+      "tokensOut": 2224,
+      "latencyMs": 8614
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 16,
+      "passed": false,
+      "tokensIn": 11745,
+      "tokensOut": 2852,
+      "latencyMs": 11652
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 17,
+      "passed": false,
+      "tokensIn": 11654,
+      "tokensOut": 2185,
+      "latencyMs": 7226
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 18,
+      "passed": true,
+      "tokensIn": 13123,
+      "tokensOut": 3015,
+      "latencyMs": 8383
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 19,
+      "passed": true,
+      "tokensIn": 11626,
+      "tokensOut": 2293,
+      "latencyMs": 10787
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 20,
+      "passed": true,
+      "tokensIn": 13679,
+      "tokensOut": 2474,
+      "latencyMs": 10838
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 21,
+      "passed": true,
+      "tokensIn": 12164,
+      "tokensOut": 2484,
+      "latencyMs": 9311
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 22,
+      "passed": false,
+      "tokensIn": 13645,
+      "tokensOut": 2446,
+      "latencyMs": 8481
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 23,
+      "passed": true,
+      "tokensIn": 11363,
+      "tokensOut": 2611,
+      "latencyMs": 8545
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 24,
+      "passed": true,
+      "tokensIn": 11833,
+      "tokensOut": 2466,
+      "latencyMs": 9767
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 25,
+      "passed": true,
+      "tokensIn": 10733,
+      "tokensOut": 2793,
+      "latencyMs": 11785
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 26,
+      "passed": false,
+      "tokensIn": 13135,
+      "tokensOut": 2807,
+      "latencyMs": 11342
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 27,
+      "passed": false,
+      "tokensIn": 14186,
+      "tokensOut": 2219,
+      "latencyMs": 11528
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 28,
+      "passed": true,
+      "tokensIn": 10979,
+      "tokensOut": 3076,
+      "latencyMs": 11437
+    },
+    {
+      "config": "verbose-rules",
+      "task": "implement-parse-range",
+      "trial": 29,
+      "passed": true,
+      "tokensIn": 10697,
+      "tokensOut": 1674,
+      "latencyMs": 8390
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 0,
+      "passed": true,
+      "tokensIn": 8375,
+      "tokensOut": 1719,
+      "latencyMs": 8185
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 1,
+      "passed": false,
+      "tokensIn": 9815,
+      "tokensOut": 2407,
+      "latencyMs": 4501
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 2,
+      "passed": false,
+      "tokensIn": 11175,
+      "tokensOut": 2288,
+      "latencyMs": 9076
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 3,
+      "passed": true,
+      "tokensIn": 7596,
+      "tokensOut": 1856,
+      "latencyMs": 8216
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 4,
+      "passed": true,
+      "tokensIn": 10398,
+      "tokensOut": 2487,
+      "latencyMs": 8242
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 5,
+      "passed": false,
+      "tokensIn": 10518,
+      "tokensOut": 722,
+      "latencyMs": 8298
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 6,
+      "passed": false,
+      "tokensIn": 10953,
+      "tokensOut": 2436,
+      "latencyMs": 8531
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 7,
+      "passed": true,
+      "tokensIn": 10584,
+      "tokensOut": 2078,
+      "latencyMs": 6535
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 8,
+      "passed": true,
+      "tokensIn": 11641,
+      "tokensOut": 1825,
+      "latencyMs": 10701
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 9,
+      "passed": false,
+      "tokensIn": 11612,
+      "tokensOut": 2796,
+      "latencyMs": 6635
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 10,
+      "passed": false,
+      "tokensIn": 8455,
+      "tokensOut": 1295,
+      "latencyMs": 11024
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 11,
+      "passed": false,
+      "tokensIn": 10479,
+      "tokensOut": 1372,
+      "latencyMs": 7290
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 12,
+      "passed": false,
+      "tokensIn": 9838,
+      "tokensOut": 1723,
+      "latencyMs": 8018
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 13,
+      "passed": false,
+      "tokensIn": 11124,
+      "tokensOut": 1831,
+      "latencyMs": 8626
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 14,
+      "passed": false,
+      "tokensIn": 12108,
+      "tokensOut": 2118,
+      "latencyMs": 12164
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 15,
+      "passed": false,
+      "tokensIn": 11636,
+      "tokensOut": 1383,
+      "latencyMs": 8730
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 16,
+      "passed": true,
+      "tokensIn": 10630,
+      "tokensOut": 2425,
+      "latencyMs": 10288
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 17,
+      "passed": false,
+      "tokensIn": 8505,
+      "tokensOut": 2483,
+      "latencyMs": 9145
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 18,
+      "passed": false,
+      "tokensIn": 11174,
+      "tokensOut": 1840,
+      "latencyMs": 8838
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 19,
+      "passed": false,
+      "tokensIn": 9587,
+      "tokensOut": 2477,
+      "latencyMs": 10866
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 20,
+      "passed": false,
+      "tokensIn": 10817,
+      "tokensOut": 2246,
+      "latencyMs": 6919
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 21,
+      "passed": true,
+      "tokensIn": 10793,
+      "tokensOut": 2472,
+      "latencyMs": 10574
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 22,
+      "passed": false,
+      "tokensIn": 9307,
+      "tokensOut": 2185,
+      "latencyMs": 6043
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 23,
+      "passed": false,
+      "tokensIn": 9334,
+      "tokensOut": 2993,
+      "latencyMs": 9023
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 24,
+      "passed": false,
+      "tokensIn": 9111,
+      "tokensOut": 2063,
+      "latencyMs": 11343
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 25,
+      "passed": true,
+      "tokensIn": 8408,
+      "tokensOut": 2497,
+      "latencyMs": 11230
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 26,
+      "passed": true,
+      "tokensIn": 11791,
+      "tokensOut": 2175,
+      "latencyMs": 9436
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 27,
+      "passed": false,
+      "tokensIn": 10464,
+      "tokensOut": 1721,
+      "latencyMs": 10950
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 28,
+      "passed": false,
+      "tokensIn": 8796,
+      "tokensOut": 2774,
+      "latencyMs": 6307
+    },
+    {
+      "config": "verbose-rules",
+      "task": "refactor-dedupe",
+      "trial": 29,
+      "passed": true,
+      "tokensIn": 11958,
+      "tokensOut": 1795,
+      "latencyMs": 8277
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 0,
+      "passed": true,
+      "tokensIn": 5941,
+      "tokensOut": 1260,
+      "latencyMs": 7630
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 1,
+      "passed": true,
+      "tokensIn": 5734,
+      "tokensOut": 1242,
+      "latencyMs": 5623
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 2,
+      "passed": false,
+      "tokensIn": 5125,
+      "tokensOut": 1560,
+      "latencyMs": 4571
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 3,
+      "passed": true,
+      "tokensIn": 5636,
+      "tokensOut": 581,
+      "latencyMs": 7902
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 4,
+      "passed": true,
+      "tokensIn": 5133,
+      "tokensOut": 1005,
+      "latencyMs": 6231
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 5,
+      "passed": true,
+      "tokensIn": 4997,
+      "tokensOut": 1166,
+      "latencyMs": 4480
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 6,
+      "passed": false,
+      "tokensIn": 4671,
+      "tokensOut": 1325,
+      "latencyMs": 5626
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 7,
+      "passed": true,
+      "tokensIn": 5588,
+      "tokensOut": 1183,
+      "latencyMs": 6180
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 8,
+      "passed": true,
+      "tokensIn": 5191,
+      "tokensOut": 1409,
+      "latencyMs": 8431
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 9,
+      "passed": true,
+      "tokensIn": 5117,
+      "tokensOut": 1737,
+      "latencyMs": 6601
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 10,
+      "passed": true,
+      "tokensIn": 6611,
+      "tokensOut": 1455,
+      "latencyMs": 7632
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 11,
+      "passed": true,
+      "tokensIn": 5377,
+      "tokensOut": 1118,
+      "latencyMs": 7525
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 12,
+      "passed": true,
+      "tokensIn": 5185,
+      "tokensOut": 1731,
+      "latencyMs": 7428
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 13,
+      "passed": true,
+      "tokensIn": 6357,
+      "tokensOut": 913,
+      "latencyMs": 5809
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 14,
+      "passed": true,
+      "tokensIn": 6526,
+      "tokensOut": 954,
+      "latencyMs": 6503
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 15,
+      "passed": true,
+      "tokensIn": 4677,
+      "tokensOut": 1282,
+      "latencyMs": 7547
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 16,
+      "passed": true,
+      "tokensIn": 5229,
+      "tokensOut": 1424,
+      "latencyMs": 6641
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 17,
+      "passed": true,
+      "tokensIn": 6140,
+      "tokensOut": 1483,
+      "latencyMs": 5757
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 18,
+      "passed": true,
+      "tokensIn": 5774,
+      "tokensOut": 1326,
+      "latencyMs": 8543
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 19,
+      "passed": true,
+      "tokensIn": 4999,
+      "tokensOut": 1196,
+      "latencyMs": 8357
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 20,
+      "passed": true,
+      "tokensIn": 5587,
+      "tokensOut": 1170,
+      "latencyMs": 6465
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 21,
+      "passed": true,
+      "tokensIn": 5939,
+      "tokensOut": 1435,
+      "latencyMs": 7074
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 22,
+      "passed": true,
+      "tokensIn": 3941,
+      "tokensOut": 1394,
+      "latencyMs": 7019
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 23,
+      "passed": true,
+      "tokensIn": 5077,
+      "tokensOut": 1225,
+      "latencyMs": 6483
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 24,
+      "passed": true,
+      "tokensIn": 4759,
+      "tokensOut": 1313,
+      "latencyMs": 7010
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 25,
+      "passed": true,
+      "tokensIn": 5193,
+      "tokensOut": 1067,
+      "latencyMs": 6538
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 26,
+      "passed": true,
+      "tokensIn": 5248,
+      "tokensOut": 1172,
+      "latencyMs": 8007
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 27,
+      "passed": true,
+      "tokensIn": 5615,
+      "tokensOut": 1344,
+      "latencyMs": 7529
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 28,
+      "passed": false,
+      "tokensIn": 6064,
+      "tokensOut": 1072,
+      "latencyMs": 7534
+    },
+    {
+      "config": "terse-rules",
+      "task": "fix-off-by-one",
+      "trial": 29,
+      "passed": true,
+      "tokensIn": 4664,
+      "tokensOut": 1487,
+      "latencyMs": 8980
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 0,
+      "passed": true,
+      "tokensIn": 6895,
+      "tokensOut": 1452,
+      "latencyMs": 6414
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 1,
+      "passed": true,
+      "tokensIn": 6594,
+      "tokensOut": 2349,
+      "latencyMs": 11293
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 2,
+      "passed": true,
+      "tokensIn": 7064,
+      "tokensOut": 2078,
+      "latencyMs": 9349
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 3,
+      "passed": false,
+      "tokensIn": 7146,
+      "tokensOut": 1668,
+      "latencyMs": 8705
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 4,
+      "passed": true,
+      "tokensIn": 7162,
+      "tokensOut": 1486,
+      "latencyMs": 10560
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 5,
+      "passed": true,
+      "tokensIn": 7578,
+      "tokensOut": 2093,
+      "latencyMs": 7671
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 6,
+      "passed": true,
+      "tokensIn": 6781,
+      "tokensOut": 2216,
+      "latencyMs": 8720
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 7,
+      "passed": true,
+      "tokensIn": 7441,
+      "tokensOut": 2185,
+      "latencyMs": 8187
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 8,
+      "passed": true,
+      "tokensIn": 7235,
+      "tokensOut": 1799,
+      "latencyMs": 10291
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 9,
+      "passed": true,
+      "tokensIn": 6420,
+      "tokensOut": 2371,
+      "latencyMs": 6192
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 10,
+      "passed": true,
+      "tokensIn": 8223,
+      "tokensOut": 2346,
+      "latencyMs": 8359
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 11,
+      "passed": true,
+      "tokensIn": 5758,
+      "tokensOut": 1881,
+      "latencyMs": 8699
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 12,
+      "passed": true,
+      "tokensIn": 7464,
+      "tokensOut": 2042,
+      "latencyMs": 6663
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 13,
+      "passed": false,
+      "tokensIn": 7611,
+      "tokensOut": 1865,
+      "latencyMs": 7695
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 14,
+      "passed": true,
+      "tokensIn": 6928,
+      "tokensOut": 1808,
+      "latencyMs": 10631
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 15,
+      "passed": false,
+      "tokensIn": 6226,
+      "tokensOut": 2609,
+      "latencyMs": 9160
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 16,
+      "passed": true,
+      "tokensIn": 8288,
+      "tokensOut": 2101,
+      "latencyMs": 9171
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 17,
+      "passed": true,
+      "tokensIn": 6491,
+      "tokensOut": 2415,
+      "latencyMs": 10831
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 18,
+      "passed": true,
+      "tokensIn": 5657,
+      "tokensOut": 2431,
+      "latencyMs": 8491
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 19,
+      "passed": true,
+      "tokensIn": 8014,
+      "tokensOut": 2161,
+      "latencyMs": 7683
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 20,
+      "passed": true,
+      "tokensIn": 6434,
+      "tokensOut": 1958,
+      "latencyMs": 10286
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 21,
+      "passed": true,
+      "tokensIn": 5955,
+      "tokensOut": 2982,
+      "latencyMs": 9007
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 22,
+      "passed": false,
+      "tokensIn": 7822,
+      "tokensOut": 2182,
+      "latencyMs": 8633
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 23,
+      "passed": true,
+      "tokensIn": 5601,
+      "tokensOut": 2458,
+      "latencyMs": 9562
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 24,
+      "passed": true,
+      "tokensIn": 5826,
+      "tokensOut": 1879,
+      "latencyMs": 9398
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 25,
+      "passed": true,
+      "tokensIn": 6117,
+      "tokensOut": 2419,
+      "latencyMs": 10888
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 26,
+      "passed": false,
+      "tokensIn": 7789,
+      "tokensOut": 1745,
+      "latencyMs": 7811
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 27,
+      "passed": true,
+      "tokensIn": 4976,
+      "tokensOut": 1948,
+      "latencyMs": 8086
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 28,
+      "passed": true,
+      "tokensIn": 6054,
+      "tokensOut": 1862,
+      "latencyMs": 8643
+    },
+    {
+      "config": "terse-rules",
+      "task": "implement-parse-range",
+      "trial": 29,
+      "passed": true,
+      "tokensIn": 6687,
+      "tokensOut": 1527,
+      "latencyMs": 11074
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 0,
+      "passed": true,
+      "tokensIn": 6567,
+      "tokensOut": 1634,
+      "latencyMs": 7463
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 1,
+      "passed": true,
+      "tokensIn": 4573,
+      "tokensOut": 1605,
+      "latencyMs": 7990
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 2,
+      "passed": true,
+      "tokensIn": 5249,
+      "tokensOut": 1747,
+      "latencyMs": 8679
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 3,
+      "passed": true,
+      "tokensIn": 5708,
+      "tokensOut": 2293,
+      "latencyMs": 7549
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 4,
+      "passed": true,
+      "tokensIn": 5849,
+      "tokensOut": 2038,
+      "latencyMs": 6580
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 5,
+      "passed": true,
+      "tokensIn": 6487,
+      "tokensOut": 1988,
+      "latencyMs": 6806
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 6,
+      "passed": true,
+      "tokensIn": 7032,
+      "tokensOut": 1208,
+      "latencyMs": 9138
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 7,
+      "passed": true,
+      "tokensIn": 5712,
+      "tokensOut": 1430,
+      "latencyMs": 7368
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 8,
+      "passed": true,
+      "tokensIn": 7326,
+      "tokensOut": 1625,
+      "latencyMs": 5314
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 9,
+      "passed": true,
+      "tokensIn": 7029,
+      "tokensOut": 1270,
+      "latencyMs": 10319
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 10,
+      "passed": true,
+      "tokensIn": 5766,
+      "tokensOut": 1694,
+      "latencyMs": 7842
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 11,
+      "passed": true,
+      "tokensIn": 5564,
+      "tokensOut": 1410,
+      "latencyMs": 6690
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 12,
+      "passed": true,
+      "tokensIn": 6500,
+      "tokensOut": 1584,
+      "latencyMs": 6858
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 13,
+      "passed": true,
+      "tokensIn": 6586,
+      "tokensOut": 1664,
+      "latencyMs": 8171
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 14,
+      "passed": true,
+      "tokensIn": 6196,
+      "tokensOut": 1511,
+      "latencyMs": 7522
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 15,
+      "passed": true,
+      "tokensIn": 6260,
+      "tokensOut": 1319,
+      "latencyMs": 6630
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 16,
+      "passed": false,
+      "tokensIn": 6670,
+      "tokensOut": 1250,
+      "latencyMs": 7547
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 17,
+      "passed": false,
+      "tokensIn": 5881,
+      "tokensOut": 1775,
+      "latencyMs": 7370
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 18,
+      "passed": true,
+      "tokensIn": 5298,
+      "tokensOut": 1619,
+      "latencyMs": 4644
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 19,
+      "passed": false,
+      "tokensIn": 6242,
+      "tokensOut": 1630,
+      "latencyMs": 8574
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 20,
+      "passed": true,
+      "tokensIn": 7348,
+      "tokensOut": 1374,
+      "latencyMs": 6247
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 21,
+      "passed": true,
+      "tokensIn": 5678,
+      "tokensOut": 1369,
+      "latencyMs": 8037
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 22,
+      "passed": true,
+      "tokensIn": 6972,
+      "tokensOut": 1458,
+      "latencyMs": 7956
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 23,
+      "passed": true,
+      "tokensIn": 7235,
+      "tokensOut": 2355,
+      "latencyMs": 8740
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 24,
+      "passed": true,
+      "tokensIn": 6099,
+      "tokensOut": 1882,
+      "latencyMs": 8039
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 25,
+      "passed": true,
+      "tokensIn": 6204,
+      "tokensOut": 1814,
+      "latencyMs": 7518
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 26,
+      "passed": true,
+      "tokensIn": 6563,
+      "tokensOut": 2058,
+      "latencyMs": 6401
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 27,
+      "passed": true,
+      "tokensIn": 7986,
+      "tokensOut": 2395,
+      "latencyMs": 9131
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 28,
+      "passed": true,
+      "tokensIn": 5184,
+      "tokensOut": 1301,
+      "latencyMs": 7440
+    },
+    {
+      "config": "terse-rules",
+      "task": "refactor-dedupe",
+      "trial": 29,
+      "passed": true,
+      "tokensIn": 5999,
+      "tokensOut": 1801,
+      "latencyMs": 7243
+    }
+  ]
+}

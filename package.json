@@ -1,0 +1,46 @@
+{
+  "name": "claudebench",
+  "version": "0.1.0",
+  "description": "Stop arguing about prompts. Measure them. A reproducible benchmark harness for Claude Code workflows.",
+  "type": "module",
+  "bin": {
+    "claudebench": "bin/claudebench.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "suites/",
+    "fixtures/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "demo": "node bin/claudebench.mjs demo",
+    "fixture": "node scripts/gen-fixture.mjs",
+    "start": "node bin/claudebench.mjs"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "benchmark",
+    "llm",
+    "eval",
+    "prompt-engineering",
+    "anthropic",
+    "ai-tools"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

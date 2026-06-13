@@ -1,0 +1,43 @@
+{
+  "id": "claude-md",
+  "title": "CLAUDE.md: terse rules vs verbose prose",
+  "description": "Does a long, polite CLAUDE.md beat a short, imperative one? Same tasks, same model, measured.",
+  "model": "claude-opus-4-8",
+  "configs": [
+    {
+      "id": "verbose-rules",
+      "target": "CLAUDE.md",
+      "file": "configs/verbose.md",
+      "label": "Verbose, polite prose (~280 words)"
+    },
+    {
+      "id": "terse-rules",
+      "target": "CLAUDE.md",
+      "file": "configs/terse.md",
+      "label": "Terse imperative rules (~40 words)"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "fix-off-by-one",
+      "kind": "bugfix",
+      "prompt": "The function `lastChunk(arr, size)` in chunk.js should return the final chunk of `arr` of length `size` (or the remainder if shorter). It has a bug. Fix it so the tests pass. Run the tests with `node --test`.",
+      "filesDir": "tasks/fix-off-by-one",
+      "test": { "cmd": "node --test" }
+    },
+    {
+      "id": "implement-parse-range",
+      "kind": "feature",
+      "prompt": "Implement `parseRange(header)` in range.js. It parses an HTTP Range header like `bytes=0-499` and returns `{ start, end }` as numbers, or `null` if malformed. Make the tests pass with `node --test`.",
+      "filesDir": "tasks/implement-parse-range",
+      "test": { "cmd": "node --test" }
+    },
+    {
+      "id": "refactor-dedupe",
+      "kind": "refactor",
+      "prompt": "`dedupe(items)` in dedupe.js works but is O(n^2) and mutates its input. Refactor it to be O(n) and pure, preserving first-seen order. Keep all tests passing via `node --test`.",
+      "filesDir": "tasks/refactor-dedupe",
+      "test": { "cmd": "node --test" }
+    }
+  ]
+}

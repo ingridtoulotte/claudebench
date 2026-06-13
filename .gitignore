@@ -1,0 +1,8 @@
+node_modules/
+.claudebench/
+*.log
+.DS_Store
+# Keep committed example SVGs under assets/, ignore ad-hoc report output at root
+/run-*.svg
+/*.svg
+!assets/*.svg
