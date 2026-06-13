@@ -88,5 +88,6 @@ Invariant: **every task must have a `test.cmd`**. No test, no objective grade, n
 - `test/scorer.test.mjs` covers the statistics and scoring/verdict logic — the only places a bug
   would silently corrupt a published number.
 - Suite *task* tests (under `suites/*/tasks/`) are **not** part of `npm test`; they are fixtures the
-  grader runs inside isolated workspaces. `npm test` is scoped to `test/**/*.test.mjs`.
+  grader runs inside isolated workspaces. `npm test` runs the files in `test/` explicitly (not a
+  bare `node --test`, which would glob the suite task tests too); add new test files to the script.
 - CI runs `npm test` and `claudebench demo` (replay, free) on every push.

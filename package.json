@@ -19,7 +19,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node --test \"test/**/*.test.mjs\"",
+    "test": "node --test test/scorer.test.mjs",
     "demo": "node bin/claudebench.mjs demo",
     "fixture": "node scripts/gen-fixture.mjs",
     "start": "node bin/claudebench.mjs"
