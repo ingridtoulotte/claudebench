@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="374" viewBox="0 0 760 374" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="760" height="374" rx="14" fill="#0d1117"/>
+<text x="32" y="48" fill="#58a6ff" font-size="22" font-weight="700">⬡ ClaudeBench</text>
+<text x="32" y="78" fill="#7d8590" font-size="13">suite memory · model claude-opus-4-8 · 40×2 trials</text>
+<text x="32" y="120" fill="#7d8590" font-size="12" letter-spacing="1">CONFIG</text>
+<text x="300" y="120" fill="#7d8590" font-size="12" letter-spacing="1">PASS RATE (95% CI)</text>
+<text x="620" y="120" fill="#7d8590" font-size="12" letter-spacing="1">TOKENS</text>
+<text x="32" y="174" fill="#e6edf3" font-size="16" font-weight="700">● distilled-memory</text>
+<text x="32" y="194" fill="#d29922" font-size="22" font-weight="700">78</text>
+<rect x="300" y="158" width="280" height="14" rx="7" fill="#21262d"/>
+<rect x="300" y="158" width="217" height="14" rx="7" fill="#d29922"/>
+<line x1="474.99049006853943" y1="154" x2="474.99049006853943" y2="176" stroke="#e6edf3" stroke-width="2"/>
+<line x1="545.5153308869001" y1="154" x2="545.5153308869001" y2="176" stroke="#e6edf3" stroke-width="2"/>
+<text x="300" y="194" fill="#7d8590" font-size="13">78% (62%–88%)</text>
+<text x="620" y="176" fill="#e6edf3" font-size="15">6.9k</text>
+<text x="32" y="238" fill="#e6edf3" font-size="16" font-weight="400">○ raw-memory</text>
+<text x="32" y="258" fill="#d29922" font-size="22" font-weight="700">70</text>
+<rect x="300" y="222" width="280" height="14" rx="7" fill="#21262d"/>
+<rect x="300" y="222" width="196" height="14" rx="7" fill="#d29922"/>
+<line x1="452.79513016790287" y1="218" x2="452.79513016790287" y2="240" stroke="#e6edf3" stroke-width="2"/>
+<line x1="529.3909214360532" y1="218" x2="529.3909214360532" y2="240" stroke="#e6edf3" stroke-width="2"/>
+<text x="300" y="258" fill="#7d8590" font-size="13">70% (55%–82%)</text>
+<text x="620" y="240" fill="#e6edf3" font-size="15">8.0k</text>
+<rect x="32" y="302" width="696" height="44" rx="8" fill="#30221a" stroke="#bb8009"/>
+<text x="48" y="330" fill="#d29922" font-size="15" font-weight="700">⚠ inconclusive</text>
+<text x="220" y="330" fill="#e6edf3" font-size="14">no significant winner (Δ 7.5pp, p=0.446)</text>
+</svg>

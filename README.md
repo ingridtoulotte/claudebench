@@ -8,10 +8,13 @@ A reproducible benchmark harness for **Claude Code** workflows — prompts, `CLA
 memory strategies, MCP stacks. Run the same tasks under each setup, get a score with a
 **confidence interval**, and find out whether the difference is real or just noise.
 
-[![tests](https://img.shields.io/badge/tests-passing-3fb950)](#)
-[![node](https://img.shields.io/badge/node-%E2%89%A518-58a6ff)](#)
-[![license](https://img.shields.io/badge/license-MIT-blue)](#)
-[![deps](https://img.shields.io/badge/runtime%20deps-0-3fb950)](#)
+[![CI](https://github.com/ingridtoulotte/claudebench/actions/workflows/ci.yml/badge.svg)](https://github.com/ingridtoulotte/claudebench/actions/workflows/ci.yml)
+[![node](https://img.shields.io/badge/node-%E2%89%A518-58a6ff)](package.json)
+[![runtime deps](https://img.shields.io/badge/runtime%20deps-0-3fb950)](package.json)
+[![no LLM judge](https://img.shields.io/badge/grading-test--based-3fb950)](docs/METHODOLOGY.md)
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
+**[60-second demo](#60-second-demo--no-api-key-needed)** · **[Why it's not snake oil](#why-this-isnt-snake-oil)** · **[Write a suite](#write-your-own-suite)** · **[Methodology](docs/METHODOLOGY.md)**
 
 </div>
 
@@ -26,12 +29,14 @@ memory strategies, MCP stacks. Run the same tasks under each setup, get a score 
 The Claude Code ecosystem runs on confident claims and zero evidence. ClaudeBench turns
 "I think it's better" into "it's **+24pp** better, **p<0.001**, here's the run you can replay."
 
+> ⭐ **If you've ever guessed whether a `CLAUDE.md` change actually helped, star the repo** — it's the fastest way to push for more suites.
+
 ---
 
 ## 60-second demo — no API key needed
 
 ```bash
-npx claudebench demo
+npx github:ingridtoulotte/claudebench demo
 ```
 
 ```
@@ -50,11 +55,30 @@ npx claudebench demo
 ```
 
 <div align="center">
-<img src="assets/example-claude-md.svg" width="640" alt="ClaudeBench comparison scorecard">
+<img src="assets/example-claude-md.svg" width="640" alt="ClaudeBench comparison scorecard: terse-rules beats verbose-rules by +24.4pp, significant at p=0.000">
 </div>
 
 The demo ships with a **recorded fixture**, so it runs instantly, costs nothing, and shows
 the same result on every machine. Point it at the real CLI with `--live` when you want fresh numbers.
+
+---
+
+## Install
+
+Zero runtime dependencies, no build step. Pick whichever you like:
+
+```bash
+# 1) zero-install — run straight from GitHub
+npx github:ingridtoulotte/claudebench demo
+
+# 2) clone it (you'll want this to write your own suites)
+git clone https://github.com/ingridtoulotte/claudebench
+cd claudebench
+node bin/claudebench.mjs demo          # free, offline, deterministic
+npm test                              # the trust core, ~120 lines of stats, all green
+```
+
+Requires **Node ≥ 18**. Live runs additionally need the [Claude Code CLI](https://docs.claude.com/en/docs/claude-code) on your `PATH`.
 
 ---
 
@@ -74,7 +98,25 @@ hiding it:
 | 🔓 **Zero black boxes** | Zero runtime dependencies. The scoring math is ~120 lines of commented, unit-tested code in [`src/engine/stats.mjs`](src/engine/stats.mjs). |
 
 > The single most important number on the scorecard isn't the score — it's the **verdict**.
-> `INCONCLUSIVE` is a feature. It's the word that ends most of these arguments honestly.
+> `INCONCLUSIVE` is a feature. It's the word that ends most of these arguments honestly:
+
+<div align="center">
+<img src="assets/example-inconclusive.svg" width="640" alt="ClaudeBench INCONCLUSIVE scorecard: two memory configs whose confidence intervals overlap, no significant winner at p=0.446">
+</div>
+
+Two memory strategies, 40 trials each, an 8-point gap — and ClaudeBench still **refuses to crown a winner**, because the intervals overlap (p=0.446). Most "this is obviously better" claims die exactly here.
+
+---
+
+## How people compare Claude Code setups today
+
+| Today's method | The problem | ClaudeBench |
+|---|---|---|
+| **Vibes** — *"this one feels smarter"* | Unfalsifiable, unshareable, irreproducible | A replayable pass rate + confidence interval |
+| **One good run** — *"it worked for me!"* | n=1 is pure noise on a stochastic model | N trials + a significance test |
+| **Counting tokens** | Cheaper ≠ better if it fails the task | Tokens sit *beside* pass rate, never blended into it |
+| **LLM-as-judge evals** | A model grading a model — same bias and variance | Objective test exit codes you can re-run yourself |
+| **Generic eval frameworks** | Built for raw API prompts, not the Claude Code agent loop | First-class `CLAUDE.md` / memory / MCP configs via headless `claude -p` |
 
 ---
 
@@ -111,6 +153,8 @@ claudebench replay run-d1de24eb7f00       # re-score a saved run, exact + free
 claudebench report run-d1de24eb7f00 --svg out.svg   # shareable SVG
 claudebench list                          # available suites
 ```
+
+> Cloned the repo? Every `claudebench …` above is `node bin/claudebench.mjs …`.
 
 Every `compare`/`run` writes a full artifact to `.claudebench/runs/<id>.json` — the audit trail
 behind the score.
@@ -160,6 +204,7 @@ claudebench compare my-suite --live --trials 30
 ```
 
 That's the whole contract: configs, tasks, a `test.cmd` that exits 0 on success. See
+[`CONTRIBUTING.md`](CONTRIBUTING.md) for the 5-minute loop and
 [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for how to write tasks that measure what you think they measure.
 
 ---
@@ -198,12 +243,16 @@ those tokens cost — shown in the cost column so you can see the price of your 
 **Why zero dependencies?**
 A benchmark tool that pulls 400 transitive packages is asking you to trust 400 things. This pulls none.
 
+**Why `npx github:…` and not `npx claudebench`?**
+The package isn't on npm yet (the short form lands in v0.2). The GitHub form runs the exact same
+code, today, with zero install.
+
 ---
 
 ## Roadmap
 
 - **v0.1 (now)** — engine, statistical scoring, `compare`/`replay`/`report`, `claude-md` suite, SVG export.
-- **v0.2** — `prompt` + `memory` suites, HTML report, `claudebench init` suite scaffolder, leaderboard JSON.
+- **v0.2** — `prompt` + `memory` suites, npm package (`npx claudebench`), HTML report, `claudebench init` scaffolder, leaderboard JSON.
 - **v0.3** — `context` + `mcp` suites, Claude API adapter (not just the CLI), GitHub Action, hosted public leaderboard.
 - **v1.0** — community suite registry, regression tracking across model versions, "ClaudeBench verified" badge.
 
@@ -212,9 +261,17 @@ A benchmark tool that pulls 400 transitive packages is asking you to trust 400 t
 ## Contributing
 
 New suites are the highest-value contribution. A good suite is a real debate reduced to passing
-tests. Open a PR with `suites/<name>/` and a recorded fixture so the demo stays free. See
-[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+tests. Open a PR with `suites/<name>/` and a recorded fixture so the demo stays free — start from
+[`CONTRIBUTING.md`](CONTRIBUTING.md) and [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md), or
+[propose a suite as an issue](https://github.com/ingridtoulotte/claudebench/issues/new?template=propose-a-suite.yml).
 
 ## License
 
-MIT.
+MIT © [Ingrid Toulotte](https://github.com/ingridtoulotte). See [LICENSE](LICENSE).
+
+<div align="center">
+<br>
+
+**If ClaudeBench ended even one "trust me, it's better" argument for you — [⭐ star it](https://github.com/ingridtoulotte/claudebench) so the next person measures instead of guesses.**
+
+</div>

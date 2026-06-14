@@ -1,7 +1,7 @@
 {
   "name": "claudebench",
   "version": "0.1.0",
-  "description": "Stop arguing about prompts. Measure them. A reproducible benchmark harness for Claude Code workflows.",
+  "description": "Stop arguing about prompts. Measure them. A reproducible, statistically-honest benchmark harness for Claude Code workflows (CLAUDE.md, prompts, memory). Wilson CIs, significance-tested verdicts, test-based grading, record/replay. Zero deps.",
   "type": "module",
   "bin": {
     "claudebench": "bin/claudebench.mjs"
@@ -28,19 +28,29 @@
     "claude",
     "claude-code",
     "benchmark",
-    "llm",
     "eval",
+    "evals",
+    "llm",
+    "llm-eval",
     "prompt-engineering",
+    "claude-md",
+    "ab-testing",
+    "statistics",
     "anthropic",
-    "ai-tools"
+    "ai-tools",
+    "developer-tools"
   ],
   "engines": {
     "node": ">=18"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Ingrid Toulotte (https://github.com/ingridtoulotte)",
+  "homepage": "https://github.com/ingridtoulotte/claudebench#readme",
+  "bugs": {
+    "url": "https://github.com/ingridtoulotte/claudebench/issues"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/ingridtoulotte/claudebench.git"
   }
 }

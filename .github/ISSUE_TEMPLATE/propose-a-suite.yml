@@ -1,0 +1,49 @@
+name: "📊 Propose a benchmark suite"
+description: "Suggest a Claude Code debate that ClaudeBench should settle with data."
+title: "[suite] "
+labels: ["suite-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suites are the highest-value contribution. The best ones turn a recurring argument
+        ("X is better") into a question that ends in passing tests.
+  - type: input
+    id: claim
+    attributes:
+      label: The claim to settle
+      description: One sentence. What does someone confidently assert that nobody has measured?
+      placeholder: "A terse CLAUDE.md produces fewer bugs than a verbose one."
+    validations:
+      required: true
+  - type: textarea
+    id: configs
+    attributes:
+      label: Configs to compare
+      description: The 2+ setups under test (CLAUDE.md variants, prompts, memory strategies, MCP stacks…).
+      placeholder: |
+        - terse-rules: a 5-bullet CLAUDE.md
+        - verbose-rules: a 60-line prose CLAUDE.md
+        - none: empty CLAUDE.md (baseline)
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks + how they're graded
+      description: What coding tasks would the agent attempt, and what `test.cmd` decides pass/fail?
+      placeholder: |
+        - fix-off-by-one → `node --test`
+        - implement-parse-range → `node --test`
+    validations:
+      required: true
+  - type: dropdown
+    id: help
+    attributes:
+      label: Are you up for building it?
+      options:
+        - "Yes — I'll open a PR with suites/<id>/ and a fixture"
+        - "Partly — I can write tasks but want help with the suite.json"
+        - "No — just proposing the idea"
+    validations:
+      required: true
